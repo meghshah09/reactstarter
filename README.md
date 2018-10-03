@@ -5,6 +5,7 @@ Contains the bare minimum for a react app using a local node.js server. You must
 To start:
 1. npm install
 2. npm start
+    * Open `localhost:3000` to display your webapp
 
 Learn React in `n` easy steps.
 1. Alter the existing app to create a component that displays "Hello World"
