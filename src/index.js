@@ -1,9 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom";
-
-document.addEventListener("DOMContentLoaded", function() {
+import hero from './HeroComponent/hero.js';
+function App(props){
+	return(
+		<React.Fragment>
+			<hero title="Simple React App" />
+		</React.Fragment>
+	);
+}
     ReactDOM.render(
-      <h1>Hello, world!</h1>,
+      <App />,
       document.getElementById('root')
     );
-});
+
